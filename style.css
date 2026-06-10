@@ -1,0 +1,59 @@
+body
+{
+        background-color: rgb(163, 163, 163);
+}
+
+h1
+{
+    font-family:"VT323",sans-serif;
+    font-size:5.4rem;
+    text-align:center;
+}
+
+#stopwatch
+{
+    background-color: rgb(47, 47, 47);
+    padding:10px;
+    border:15px solid black;
+    border-radius:30px;
+    display:flex;
+    max-width:520px;
+    flex-direction: column;
+    align-items: center;
+    margin-top:100px;
+    margin-left:auto;
+    margin-right:auto;
+    
+    
+}
+
+#display
+{
+    font-family: "VT323", monospace;
+    background-color: rgb(110, 124, 110);
+    border-radius:10px;
+    border:5px inset black;
+    color:rgb(0, 0, 0);
+    font-size: 4.8rem;
+    margin:10px;
+    padding:20px;
+     
+}
+
+#controls button
+{
+    border:3px solid black;
+    background-color: rgb(94, 94, 94);
+    padding:15px;
+    font-size:2rem;
+    margin:10px;
+    border-radius:10px;
+    border:4px outset black;
+    cursor: pointer;    
+}
+
+#controls button:active   /*changing the border from outset to inset to give button like feel on clicking*/
+{
+    border: 4px inset black;
+    background-color: rgb(80, 80, 80);
+}
